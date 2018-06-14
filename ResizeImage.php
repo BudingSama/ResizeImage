@@ -1,11 +1,4 @@
 <?php
-//imagecreatefromgif()：创建一块画布，并从 GIF 文件或 URL 地址载入一副图像
-//imagecreatefromjpeg()：创建一块画布，并从 JPEG 文件或 URL 地址载入一副图像
-//imagecreatefrompng()：创建一块画布，并从 PNG 文件或 URL 地址载入一副图像
-//imagecreatefromwbmp()：创建一块画布，并从 WBMP 文件或 URL 地址载入一副图像
-//imagecreatefromstring()：创建一块画布，并从字符串中的图像流新建一副图像
-  //压缩图片
-  //形参说明  图片url 目标宽度 
 function ResizeImage($uploadfile,$target){
 	//获得原图扩展名
 	$ImageType = explode(".", $uploadfile)[count(explode(".", $uploadfile))-1];
